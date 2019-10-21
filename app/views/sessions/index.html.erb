@@ -1,0 +1,48 @@
+<div id = "register">
+
+    <h1>Register</h1>
+
+    <form action = "/users/create" method = "post">
+
+        <input type = "hidden" name = "authenticity_token" value = "<%= form_authenticity_token %>"/>
+
+        <p>First Name:</p>
+        <input type = "text" name = "user[first_name]"/>
+
+        <p>Last Name:</p>
+        <input type = "text" name = "user[last_name]"/>
+
+        <p>Email:</p>
+        <input type = "text" name = "user[email]"/>
+
+        <p>Password:</p>
+        <input type = "password" name = "user[password]"/>
+
+        <p>Password Confirmation:</p>
+        <input type = "password" name = "user[password_confirmation]"/>
+
+        <button type = "submit">Create</button>
+
+    </form>
+
+</div>
+
+<div id = "login">
+
+    <h1>Login</h1>
+
+    <form action = "/login" method = "post">
+
+        <input type = "hidden" name = "authenticity_token" value = "<%= form_authenticity_token %>"/>
+
+        <p>Email:</p>
+        <input type = "text" name = "email"/>
+
+        <p>Password:</p>
+        <input type = "password" name = "password"/>
+
+        <button type = "submit">Login</button>
+
+    </form>
+
+</div>

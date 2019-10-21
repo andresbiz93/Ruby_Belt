@@ -1,0 +1,35 @@
+*{
+    vertical-align: top;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    outline:0px;
+}
+
+#wrapper{
+    max-width:1300px;
+    max-height:1000px;
+    background-color: #c6f7c6;
+    padding:20px;
+}
+
+#register{
+    display:inline-block;
+    max-width:600px;
+    max-height:800px;
+    padding:10px;
+    outline:1px solid black;
+}
+
+#login{
+    margin-left:50px;
+    display:inline-block;
+    max-width:600px;
+    max-height:800px;
+    padding:10px;
+    outline:1px solid black;
+}
+
+.table{
+    background-color:#e8e8e8;
+}
